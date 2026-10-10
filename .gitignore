@@ -1,0 +1,70 @@
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+.beads/proxieddb/
+*.gate.lock*
+
+# Secrets and machine-specific environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+secrets/
+
+# Python environments, caches, and build outputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Frontend dependencies and generated outputs
+node_modules/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Sensitive telemetry, datasets, model artifacts, and local storage
+data/
+datasets/
+uploads/
+artifacts/
+models/
+*.joblib
+*.pkl
+*.pickle
+*.parquet
+*.pcap
+*.pcapng
+*.csv
+*.log
+logs/
+volumes/
+pgdata/
+backups/
+
+# OS/editor scratch files and generated analysis
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.serena/
+graphify-out/
+
+# Local Cursor configuration
+.cursor/

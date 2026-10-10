@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "AegisSOC",
+  "project_id": "a11a68ab-37d7-42fd-b0a5-034f8c9b0079"
+}
